@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260">
+  <defs>
+    <pattern id="tScan" patternUnits="userSpaceOnUse" width="850" height="3">
+      <rect width="850" height="1.5" fill="rgba(0,0,0,0.08)"/>
+    </pattern>
+    <radialGradient id="tBg" cx="30%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#140c10"/>
+      <stop offset="100%" stop-color="#0c0809"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Terminal window -->
+  <rect width="850" height="260" fill="url(#tBg)" rx="4"/>
+  <rect width="850" height="260" fill="none" stroke="#fcee0a" stroke-width="0.5" opacity="0.12" rx="4"/>
+
+  <!-- Title bar -->
+  <rect width="850" height="28" fill="rgba(252,238,10,0.03)" rx="4"/>
+  <rect y="24" width="850" height="4" fill="rgba(252,238,10,0.03)"/>
+  <line y1="28" x2="850" y2="28" stroke="#fcee0a" stroke-width="0.3" opacity="0.15"/>
+
+  <!-- Title bar content -->
+  <circle cx="16" cy="14" r="4" fill="#ff5f57" opacity="0.7"/>
+  <circle cx="32" cy="14" r="4" fill="#febc2e" opacity="0.7"/>
+  <circle cx="48" cy="14" r="4" fill="#28c840" opacity="0.7"/>
+  <text x="425" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#665e56">
+    root@night-city:~/ninad/about
+  </text>
+
+  <!-- Terminal lines -->
+  <g font-family="'Courier New', monospace" font-size="12.5">
+    <!-- Line 1 -->
+    <text x="20" y="54" fill="#fcee0a" opacity="0.6">$</text>
+    <text x="34" y="54" fill="#c8c0b8">whoami</text>
+    <text x="20" y="74" fill="#908880" opacity="0">
+      AI &amp; ML Engineer building intelligent systems in Bengaluru
+      <animate attributeName="opacity" from="0" to="0.9" dur="0.2s" begin="0.6s" fill="freeze"/>
+    </text>
+
+    <!-- Line 2 -->
+    <text x="20" y="100" fill="#fcee0a" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.6" dur="0.1s" begin="1.3s" fill="freeze"/>
+      $
+    </text>
+    <text x="34" y="100" fill="#c8c0b8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.3s" fill="freeze"/>
+      cat mission.log
+    </text>
+    <text x="20" y="120" fill="#908880" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.9" dur="0.2s" begin="2s" fill="freeze"/>
+      ML systems, NLP pipelines, multi-agent architectures, LLM apps
+    </text>
+
+    <!-- Line 3 -->
+    <text x="20" y="146" fill="#fcee0a" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.6" dur="0.1s" begin="2.7s" fill="freeze"/>
+      $
+    </text>
+    <text x="34" y="146" fill="#c8c0b8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="2.7s" fill="freeze"/>
+      ls ./current_ops/
+    </text>
+    <text x="20" y="166" fill="#fcee0a" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.7" dur="0.2s" begin="3.4s" fill="freeze"/>
+      LLMs/  agentic-systems/  applied-ML/  full-stack-AI/
+    </text>
+
+    <!-- Line 4 -->
+    <text x="20" y="192" fill="#fcee0a" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.6" dur="0.1s" begin="4.1s" fill="freeze"/>
+      $
+    </text>
+    <text x="34" y="192" fill="#c8c0b8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="4.1s" fill="freeze"/>
+      echo $PHILOSOPHY
+    </text>
+    <text x="20" y="212" fill="#5cff7e" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.8" dur="0.2s" begin="4.8s" fill="freeze"/>
+      Ship fast. Break things. Learn faster. Repeat.
+    </text>
+
+    <!-- Cursor -->
+    <rect x="20" y="230" width="7" height="13" fill="#fcee0a" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.7;0;0.7;0" dur="1.2s" begin="5.5s" fill="freeze" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Scanlines -->
+  <rect width="850" height="260" fill="url(#tScan)" opacity="0.15" rx="4"/>
+</svg>

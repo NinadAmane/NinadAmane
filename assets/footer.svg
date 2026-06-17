@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100">
+  <defs>
+    <pattern id="fsc" patternUnits="userSpaceOnUse" width="900" height="3">
+      <rect width="900" height="1.5" fill="rgba(0,0,0,0.08)"/>
+    </pattern>
+    <linearGradient id="fEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fcee0a" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fcee0a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fcee0a" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fBg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#140c10"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="100" fill="url(#fBg)"/>
+
+  <!-- Top line -->
+  <rect y="0" width="900" height="1" fill="url(#fEdge)"/>
+
+  <!-- Quote -->
+  <text x="450" y="38" text-anchor="middle" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="13" fill="#fcee0a" opacity="0.6" letter-spacing="2" font-style="italic">
+    "Wake up, Samurai. We have a city to burn."
+  </text>
+  <text x="450" y="56" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#665e56" letter-spacing="3">
+    — JOHNNY SILVERHAND
+  </text>
+
+  <!-- Bottom metadata -->
+  <g font-family="'Courier New', monospace" font-size="8" fill="#3a3530">
+    <text x="70" y="85">NEURAL_OS v2077</text>
+    <text x="450" y="85" text-anchor="middle">DESIGNED WITH PRECISION // NIGHT CITY</text>
+    <text x="830" y="85" text-anchor="end">SESSION TERMINATED</text>
+  </g>
+
+  <!-- Bottom line -->
+  <rect y="98" width="900" height="2" fill="url(#fEdge)" opacity="0.5"/>
+
+  <rect width="900" height="100" fill="url(#fsc)" opacity="0.1"/>
+</svg>

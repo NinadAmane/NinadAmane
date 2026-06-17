@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="170" viewBox="0 0 400 170">
+  <defs>
+    <pattern id="s2" patternUnits="userSpaceOnUse" width="400" height="3">
+      <rect width="400" height="1.5" fill="rgba(0,0,0,0.06)"/>
+    </pattern>
+    <radialGradient id="bg2" cx="80%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#140c10"/>
+      <stop offset="100%" stop-color="#0c0809"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="170" fill="url(#bg2)" rx="3"/>
+  <rect width="400" height="170" fill="none" stroke="#fcee0a" stroke-width="0.5" opacity="0.15" rx="3"/>
+  <rect width="400" height="2" fill="#fcee0a" opacity="0.3" rx="3"/>
+  <rect y="2" width="400" height="1" fill="#fcee0a" opacity="0" rx="0">
+    <animate attributeName="opacity" values="0;0.15;0" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="18" cy="22" r="3" fill="#5cff7e" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="28" y="26" font-family="'Courier New', monospace" font-size="8" fill="#665e56" letter-spacing="2">GIG — ACTIVE</text>
+
+  <text x="18" y="52" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="20" fill="#fcee0a" font-weight="700" letter-spacing="1">
+    Agentic-ICU
+  </text>
+  <line x1="18" y1="60" x2="180" y2="60" stroke="#fcee0a" stroke-width="0.3" opacity="0.2"/>
+
+  <text x="18" y="76" font-family="'Courier New', monospace" font-size="9" fill="#03d8f3" opacity="0.7" letter-spacing="1">INTELLIGENT MONITORING SYSTEM</text>
+
+  <text font-family="'Courier New', monospace" font-size="10" fill="#908880">
+    <tspan x="18" y="98">Multi-agent ICU monitoring with</tspan>
+    <tspan x="18" dy="14">intelligent alerting and real-time</tspan>
+    <tspan x="18" dy="14">patient data analysis pipelines.</tspan>
+  </text>
+
+  <g transform="translate(18, 145)" font-family="'Courier New', monospace" font-size="9">
+    <rect width="52" height="17" fill="rgba(252,238,10,0.04)" stroke="#fcee0a" stroke-width="0.3" opacity="0.5" rx="1"/>
+    <text x="26" y="12" text-anchor="middle" fill="#fcee0a" opacity="0.8">Python</text>
+    <rect x="60" width="82" height="17" fill="rgba(252,238,10,0.04)" stroke="#fcee0a" stroke-width="0.3" opacity="0.5" rx="1"/>
+    <text x="101" y="12" text-anchor="middle" fill="#fcee0a" opacity="0.8">Multi-Agent</text>
+    <rect x="150" width="72" height="17" fill="rgba(252,238,10,0.04)" stroke="#fcee0a" stroke-width="0.3" opacity="0.5" rx="1"/>
+    <text x="186" y="12" text-anchor="middle" fill="#fcee0a" opacity="0.8">Healthcare</text>
+  </g>
+
+  <rect width="400" height="170" fill="url(#s2)" opacity="0.12" rx="3"/>
+</svg>
