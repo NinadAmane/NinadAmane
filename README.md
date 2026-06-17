@@ -149,6 +149,12 @@
 </a>
 
 <br/><br/>
+
+<a href="https://github.com/NinadAmane">
+<img src="./profile-3d-contrib/profile-cyberpunk-contrib.svg" width="100%" alt="3D Isometric Contributions"/>
+</a>
+
+<br/><br/>
 </div>
 
 <img src="./assets/line-divider.svg" width="100%"/>

@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-cyberpunk-contrib.svg",
+  "backgroundColor": "#0c0809",
+  "foregroundColor": "#fcee0a",
+  "strongColor": "#03d8f3",
+  "weakColor": "#665e56",
+  "radarColor": "#5cff7e",
+  "growingAnimation": true,
+  "contribColors": [
+    "#140c10",
+    "#362f0a",
+    "#7a6e13",
+    "#c7b41e",
+    "#fcee0a"
+  ]
+}
