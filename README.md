@@ -99,8 +99,8 @@
 </a>
 </td>
 <td width="50%">
-<a href="https://github.com/NinadAmane/Youtube_video_summarizer">
-<img src="./assets/card-yt-summarizer.svg" width="100%"/>
+<a href="https://github.com/NinadAmane/Neonatal-Sepsis">
+<img src="./assets/card-neonatal-sepsis.svg" width="100%"/>
 </a>
 </td>
 </tr>
