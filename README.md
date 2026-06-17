@@ -39,19 +39,19 @@
 
 <img src="./assets/tech-languages.svg" width="85%"/>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=c,cpp,py,html,css&theme=dark&perline=7"/>
+<img src="./assets/skills-languages.svg" width="85%"/>
 
 <br/><br/>
 
 <img src="./assets/tech-aiml.svg" width="85%"/>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,fastapi&theme=dark&perline=7"/>
+<img src="./assets/skills-aiml.svg" width="85%"/>
 
 <br/><br/>
 
 <img src="./assets/tech-tools.svg" width="85%"/>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=github,postman,docker,githubactions&theme=dark&perline=8"/>
+<img src="./assets/skills-tools.svg" width="85%"/>
 
 <br/><br/>
 </div>

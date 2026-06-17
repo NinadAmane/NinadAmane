@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="100" viewBox="0 0 750 100">
+  <defs>
+    <filter id="glow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="14" font-weight="600" letter-spacing="1">
+    
+    <!-- Row 1 -->
+    <!-- GitHub -->
+    <g transform="translate(30, 10)">
+      <path d="M 8 0 L 150 0 L 150 22 L 142 30 L 0 30 L 0 8 Z" fill="rgba(92,255,126,0.05)" stroke="#5cff7e" stroke-width="1" opacity="0.8"/>
+      <text x="75" y="20" fill="#5cff7e" text-anchor="middle" filter="url(#glow3)">GITHUB</text>
+    </g>
+
+    <!-- Docker -->
+    <g transform="translate(200, 10)">
+      <path d="M 8 0 L 150 0 L 150 22 L 142 30 L 0 30 L 0 8 Z" fill="rgba(92,255,126,0.05)" stroke="#5cff7e" stroke-width="1" opacity="0.8"/>
+      <text x="75" y="20" fill="#5cff7e" text-anchor="middle" filter="url(#glow3)">DOCKER</text>
+    </g>
+
+    <!-- Postman -->
+    <g transform="translate(370, 10)">
+      <path d="M 8 0 L 150 0 L 150 22 L 142 30 L 0 30 L 0 8 Z" fill="rgba(92,255,126,0.05)" stroke="#5cff7e" stroke-width="1" opacity="0.8"/>
+      <text x="75" y="20" fill="#5cff7e" text-anchor="middle" filter="url(#glow3)">POSTMAN</text>
+    </g>
+
+    <!-- MongoDB -->
+    <g transform="translate(540, 10)">
+      <path d="M 8 0 L 150 0 L 150 22 L 142 30 L 0 30 L 0 8 Z" fill="rgba(92,255,126,0.05)" stroke="#5cff7e" stroke-width="1" opacity="0.8"/>
+      <text x="75" y="20" fill="#5cff7e" text-anchor="middle" filter="url(#glow3)">MONGO_DB</text>
+    </g>
+
+    <!-- Row 2 -->
+    <!-- GitHub Actions -->
+    <g transform="translate(200, 55)">
+      <path d="M 8 0 L 150 0 L 150 22 L 142 30 L 0 30 L 0 8 Z" fill="rgba(92,255,126,0.05)" stroke="#5cff7e" stroke-width="1" opacity="0.8"/>
+      <text x="75" y="20" fill="#5cff7e" text-anchor="middle" filter="url(#glow3)">GH_ACTIONS</text>
+    </g>
+
+    <!-- Cloud Computing -->
+    <g transform="translate(370, 55)">
+      <path d="M 8 0 L 150 0 L 150 22 L 142 30 L 0 30 L 0 8 Z" fill="rgba(92,255,126,0.05)" stroke="#5cff7e" stroke-width="1" opacity="0.8"/>
+      <text x="75" y="20" fill="#5cff7e" text-anchor="middle" filter="url(#glow3)">CLOUD_COMP</text>
+    </g>
+
+  </g>
+</svg>

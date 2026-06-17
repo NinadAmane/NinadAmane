@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="60" viewBox="0 0 750 60">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="14" font-weight="600" letter-spacing="1">
+    
+    <!-- Python -->
+    <g transform="translate(65, 10)">
+      <path d="M 8 0 L 110 0 L 110 22 L 102 30 L 0 30 L 0 8 Z" fill="rgba(252,238,10,0.05)" stroke="#fcee0a" stroke-width="1" opacity="0.8"/>
+      <text x="55" y="20" fill="#fcee0a" text-anchor="middle" filter="url(#glow)">PYTHON</text>
+    </g>
+
+    <!-- C++ -->
+    <g transform="translate(195, 10)">
+      <path d="M 8 0 L 110 0 L 110 22 L 102 30 L 0 30 L 0 8 Z" fill="rgba(252,238,10,0.05)" stroke="#fcee0a" stroke-width="1" opacity="0.8"/>
+      <text x="55" y="20" fill="#fcee0a" text-anchor="middle" filter="url(#glow)">C / C++</text>
+    </g>
+
+    <!-- HTML -->
+    <g transform="translate(325, 10)">
+      <path d="M 8 0 L 110 0 L 110 22 L 102 30 L 0 30 L 0 8 Z" fill="rgba(252,238,10,0.05)" stroke="#fcee0a" stroke-width="1" opacity="0.8"/>
+      <text x="55" y="20" fill="#fcee0a" text-anchor="middle" filter="url(#glow)">HTML_5</text>
+    </g>
+
+    <!-- CSS -->
+    <g transform="translate(455, 10)">
+      <path d="M 8 0 L 110 0 L 110 22 L 102 30 L 0 30 L 0 8 Z" fill="rgba(252,238,10,0.05)" stroke="#fcee0a" stroke-width="1" opacity="0.8"/>
+      <text x="55" y="20" fill="#fcee0a" text-anchor="middle" filter="url(#glow)">CSS_3</text>
+    </g>
+
+    <!-- SQL -->
+    <g transform="translate(585, 10)">
+      <path d="M 8 0 L 110 0 L 110 22 L 102 30 L 0 30 L 0 8 Z" fill="rgba(252,238,10,0.05)" stroke="#fcee0a" stroke-width="1" opacity="0.8"/>
+      <text x="55" y="20" fill="#fcee0a" text-anchor="middle" filter="url(#glow)">SQL_DB</text>
+    </g>
+
+  </g>
+</svg>
