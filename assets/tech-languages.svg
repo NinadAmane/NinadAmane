@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="70" viewBox="0 0 750 70">
+  <defs>
+    <pattern id="tls" patternUnits="userSpaceOnUse" width="750" height="3">
+      <rect width="750" height="1.5" fill="rgba(0,0,0,0.06)"/>
+    </pattern>
+    <radialGradient id="tlbg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#140c10"/>
+      <stop offset="100%" stop-color="#0c0809"/>
+    </radialGradient>
+    <filter id="tlg" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="750" height="70" fill="url(#tlbg)" rx="3"/>
+  <rect width="750" height="70" fill="none" stroke="#fcee0a" stroke-width="0.5" opacity="0.12" rx="3"/>
+
+  <!-- Top accent -->
+  <rect width="750" height="1.5" fill="#fcee0a" opacity="0.25" rx="3"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="3" height="70" fill="#fcee0a" opacity="0.3" rx="1"/>
+
+  <!-- Status dot -->
+  <circle cx="22" cy="20" r="3" fill="#fcee0a" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="32" y="24" font-family="'Courier New', monospace" font-size="8" fill="#665e56" letter-spacing="2">CYBERWARE MODULE</text>
+
+  <!-- Main label -->
+  <text x="22" y="48" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="22" fill="#fcee0a" font-weight="700" letter-spacing="2" filter="url(#tlg)">
+    LANGUAGES
+  </text>
+
+  <!-- Right side metadata -->
+  <text x="728" y="24" text-anchor="end" font-family="'Courier New', monospace" font-size="8" fill="#665e56" letter-spacing="1">CORE_MODULES</text>
+  <text x="728" y="48" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#03d8f3" opacity="0.6">7 INSTALLED</text>
+
+  <!-- Scan effect -->
+  <rect width="2" height="70" fill="#fcee0a" opacity="0.03" rx="1">
+    <animate attributeName="x" from="0" to="750" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect width="750" height="70" fill="url(#tls)" opacity="0.1" rx="3"/>
+</svg>

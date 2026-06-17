@@ -37,37 +37,23 @@
 <div align="center">
 <br/>
 
-<table>
-<tr><td align="center" width="900">
-
-**`LANGUAGES`**
-
-<br/>
-
+<img src="./assets/tech-languages.svg" width="85%"/>
+<br/><br/>
 <img src="https://skillicons.dev/icons?i=python,javascript,typescript,cpp,java,html,css&theme=dark&perline=7"/>
 
 <br/><br/>
 
-**`AI // ML FRAMEWORKS`**
-
-<br/>
-
+<img src="./assets/tech-aiml.svg" width="85%"/>
+<br/><br/>
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&theme=dark&perline=7"/>
 
 <br/><br/>
 
-**`TOOLS // INFRASTRUCTURE`**
-
-<br/>
-
+<img src="./assets/tech-tools.svg" width="85%"/>
+<br/><br/>
 <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman,mongodb,mysql,firebase,vercel,flask,fastapi,nodejs,react,nextjs&theme=dark&perline=8"/>
 
 <br/><br/>
-
-</td></tr>
-</table>
-
-<br/>
 </div>
 
 <img src="./assets/line-divider.svg" width="100%"/>
