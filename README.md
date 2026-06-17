@@ -182,11 +182,13 @@
 <img src="https://img.shields.io/badge/EMAIL-0c0809?style=for-the-badge&logo=gmail&logoColor=fcee0a"/>
 </a>
 &nbsp;
-<a href="https://github.com/NinadAmane">
-<img src="https://img.shields.io/badge/GITHUB-0c0809?style=for-the-badge&logo=github&logoColor=fcee0a"/>
+<a href="https://leetcode.com/u/ninadamane/">
+<img src="https://img.shields.io/badge/LEETCODE-0c0809?style=for-the-badge&logo=leetcode&logoColor=fcee0a"/>
 </a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=NinadAmane&label=NETWATCH+PINGS&color=0c0809&style=for-the-badge&label_color=fcee0a"/>
+<a href="https://gssoc.girlscript.org/profile/c4548393-b4c5-4b10-9d0c-29b93a9a7951">
+<img src="https://img.shields.io/badge/GSSOC-0c0809?style=for-the-badge&logo=codeforces&logoColor=fcee0a"/>
+</a>
 
 <br/><br/>
 
