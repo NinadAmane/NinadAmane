@@ -7,7 +7,7 @@
 <img src="./assets/header.svg" width="100%"/>
 
 <br/><br/>
-<a href="#">
+<a href="./assets/Ninad_Amane_Resume.pdf">
 <img src="./assets/btn-resume.svg" width="300"/>
 </a>
 <br/><br/>
