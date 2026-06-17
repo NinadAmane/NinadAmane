@@ -35,7 +35,7 @@
 
   <!-- Right side metadata -->
   <text x="728" y="24" text-anchor="end" font-family="'Courier New', monospace" font-size="8" fill="#665e56" letter-spacing="1">CORE_MODULES</text>
-  <text x="728" y="48" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#03d8f3" opacity="0.6">7 INSTALLED</text>
+  <text x="728" y="48" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#03d8f3" opacity="0.6">5 INSTALLED</text>
 
   <!-- Scan effect -->
   <rect width="2" height="70" fill="#fcee0a" opacity="0.03" rx="1">

@@ -39,19 +39,19 @@
 
 <img src="./assets/tech-languages.svg" width="85%"/>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,cpp,java,html,css&theme=dark&perline=7"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,py,html,css&theme=dark&perline=7"/>
 
 <br/><br/>
 
 <img src="./assets/tech-aiml.svg" width="85%"/>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&theme=dark&perline=7"/>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,fastapi&theme=dark&perline=7"/>
 
 <br/><br/>
 
 <img src="./assets/tech-tools.svg" width="85%"/>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman,mongodb,mysql,firebase,vercel,flask,fastapi,nodejs,react,nextjs&theme=dark&perline=8"/>
+<img src="https://skillicons.dev/icons?i=github,postman,docker,githubactions&theme=dark&perline=8"/>
 
 <br/><br/>
 </div>

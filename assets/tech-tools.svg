@@ -29,7 +29,7 @@
   </text>
 
   <text x="728" y="24" text-anchor="end" font-family="'Courier New', monospace" font-size="8" fill="#665e56" letter-spacing="1">DEVOPS_STACK</text>
-  <text x="728" y="48" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#5cff7e" opacity="0.6">15 INSTALLED</text>
+  <text x="728" y="48" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#5cff7e" opacity="0.6">4 INSTALLED</text>
 
   <rect width="2" height="70" fill="#fcee0a" opacity="0.03" rx="1">
     <animate attributeName="x" from="0" to="750" dur="4.5s" repeatCount="indefinite"/>
