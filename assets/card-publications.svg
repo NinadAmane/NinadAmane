@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="200" viewBox="0 0 850 200">
+  <defs>
+    <pattern id="s_pub" patternUnits="userSpaceOnUse" width="850" height="3">
+      <rect width="850" height="1.5" fill="rgba(0,0,0,0.06)"/>
+    </pattern>
+    <radialGradient id="bg_pub" cx="50%" cy="50%" r="90%">
+      <stop offset="0%" stop-color="#140c10"/>
+      <stop offset="100%" stop-color="#0c0809"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="850" height="200" fill="url(#bg_pub)" rx="3"/>
+  <rect width="850" height="200" fill="none" stroke="#fcee0a" stroke-width="0.5" opacity="0.15" rx="3"/>
+
+  <rect width="850" height="2" fill="#fcee0a" opacity="0.3" rx="3"/>
+  
+  <circle cx="25" cy="25" r="3" fill="#03d8f3" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="35" y="29" font-family="'Courier New', monospace" font-size="9" fill="#665e56" letter-spacing="2">DATABASE RECORDS — 03/2025</text>
+
+  <!-- Pub 1 -->
+  <text x="25" y="70" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="18" fill="#fcee0a" font-weight="700" letter-spacing="1">
+    Enhancing Question Answering Systems with Semantic Networks and NLP Techniques
+  </text>
+  <text x="25" y="90" font-family="'Courier New', monospace" font-size="10" fill="#908880">
+    Research paper focusing on advanced semantic parsing and NLP for intelligent Q&amp;A systems.
+  </text>
+
+  <line x1="25" y1="110" x2="825" y2="110" stroke="#fcee0a" stroke-width="0.3" opacity="0.1"/>
+
+  <!-- Pub 2 -->
+  <text x="25" y="140" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="18" fill="#fcee0a" font-weight="700" letter-spacing="1">
+    Improving Medical Imaging Diagnostics with DCNs for Early Detection &amp; Treatment
+  </text>
+  <text x="25" y="160" font-family="'Courier New', monospace" font-size="10" fill="#908880">
+    Deep Convolutional Networks application in automated medical imaging for early disease diagnosis.
+  </text>
+
+  <rect width="850" height="200" fill="url(#s_pub)" opacity="0.12" rx="3"/>
+</svg>

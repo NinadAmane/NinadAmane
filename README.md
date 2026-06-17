@@ -97,6 +97,20 @@
 
 <img src="./assets/line-divider.svg" width="100%"/>
 
+<!-- ═══════════════════ PUBLICATIONS ═══════════════════ -->
+
+<img src="./assets/section-publications.svg" width="100%"/>
+
+<div align="center">
+<br/>
+
+<img src="./assets/card-publications.svg" width="95%"/>
+
+<br/><br/>
+</div>
+
+<img src="./assets/line-divider.svg" width="100%"/>
+
 <!-- ═══════════════════ STATS ═══════════════════ -->
 
 <img src="./assets/section-stats.svg" width="100%"/>
@@ -135,10 +149,6 @@
 </a>
 
 <br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=NinadAmane&no-frame=true&no-bg=true&column=7&title_color=fcee0a&theme=darkhub"/>
-
-<br/><br/>
 </div>
 
 <img src="./assets/line-divider.svg" width="100%"/>
@@ -172,12 +182,7 @@
 
 <br/>
 
-<!-- Contribution Snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NinadAmane/NinadAmane/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NinadAmane/NinadAmane/output/github-snake.svg"/>
-  <img alt="contribution-snake" src="https://raw.githubusercontent.com/NinadAmane/NinadAmane/output/github-snake-dark.svg"/>
-</picture>
+<br/>
 
 </div>
 
