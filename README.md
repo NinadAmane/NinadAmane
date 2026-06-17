@@ -6,7 +6,11 @@
 
 <img src="./assets/header.svg" width="100%"/>
 
-<br/>
+<br/><br/>
+<a href="#">
+<img src="./assets/btn-resume.svg" width="300"/>
+</a>
+<br/><br/>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=18&duration=3000&pause=1500&color=FCEE0A&center=true&vCenter=true&repeat=true&width=500&height=30&lines=%3E+NEURAL+LINK+ESTABLISHED...;%3E+LOADING+OPERATIVE+DOSSIER...;%3E+SYSTEM+READY+%2F%2F+WELCOME)](https://git.io/typing-svg)
 
@@ -181,6 +185,8 @@
 <a href="https://github.com/NinadAmane">
 <img src="https://img.shields.io/badge/GITHUB-0c0809?style=for-the-badge&logo=github&logoColor=fcee0a"/>
 </a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=NinadAmane&label=NETWATCH+PINGS&color=0c0809&style=for-the-badge&label_color=fcee0a"/>
 
 <br/><br/>
 

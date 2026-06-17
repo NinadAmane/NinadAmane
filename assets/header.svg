@@ -63,6 +63,31 @@
   <!-- Top accent line -->
   <rect y="0" width="900" height="2" fill="url(#topEdge)" opacity="0.6"/>
 
+  <style>
+    @keyframes glitch-anim {
+      0%, 100% { transform: translate(0); opacity: 1; }
+      2% { transform: translate(-3px, 1px); opacity: 0.8; }
+      4% { transform: translate(3px, -2px); opacity: 1; }
+      6% { transform: translate(-1px, 2px); opacity: 0.4; }
+      8% { transform: translate(2px, -1px); opacity: 1; }
+      10% { transform: translate(0); opacity: 1; }
+      45% { transform: translate(0); opacity: 1; }
+      46% { transform: translate(-2px, 0); opacity: 0.6; }
+      47% { transform: translate(0); opacity: 1; }
+    }
+    @keyframes glitch-layer {
+      0%, 100% { opacity: 0; transform: translate(0) }
+      1% { opacity: 0.9; transform: translate(-4px, 0); fill: #03d8f3; }
+      3% { opacity: 0; }
+      5% { opacity: 0.9; transform: translate(4px, 0); fill: #ff003c; }
+      7% { opacity: 0; }
+      46% { opacity: 0.8; transform: translate(-3px, 1px); fill: #03d8f3; }
+      48% { opacity: 0; }
+    }
+    .glitch { animation: glitch-anim 3s infinite; }
+    .glitch-layer-1 { animation: glitch-layer 3s infinite; }
+  </style>
+
   <!-- Main name block -->
   <g transform="translate(70, 85)">
     <!-- Small label above -->
@@ -70,8 +95,13 @@
       OPERATIVE DOSSIER
     </text>
 
+    <!-- Glitch layers -->
+    <text y="52" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="58" font-weight="700" letter-spacing="3" class="glitch-layer-1">
+      NINAD AMANE
+    </text>
+
     <!-- Main name - large, bold, yellow -->
-    <text y="52" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="58" fill="#fcee0a" font-weight="700" letter-spacing="3" filter="url(#glowY)">
+    <text y="52" font-family="'Segoe UI', 'Rajdhani', sans-serif" font-size="58" fill="#fcee0a" font-weight="700" letter-spacing="3" filter="url(#glowY)" class="glitch">
       NINAD AMANE
     </text>
 
