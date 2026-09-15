@@ -77,7 +77,7 @@
 </a>
 </td>
 <td width="50%">
-<a href="https://github.com/NinadAmane/Agentic-ICU-Intelligent-Multi-Agent-ICU-Monitoring">
+<a href="https://github.com/pranay9981/multi-agent-icu-monitoring">
 <img src="./assets/card-agentic-icu.svg" width="100%"/>
 </a>
 </td>
