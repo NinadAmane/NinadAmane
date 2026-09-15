@@ -116,7 +116,7 @@
 <img src="./assets/line-divider.svg" width="100%"/>
 
 <!-- ═══════════════════ STATS ═══════════════════ -->
-
+<!--
 <img src="./assets/section-stats.svg" width="100%"/>
 
 <div align="center">
@@ -140,27 +140,24 @@
 </div>
 
 <img src="./assets/line-divider.svg" width="100%"/>
-
+-->
 <!-- ═══════════════════ ACTIVITY ═══════════════════ -->
-
+<!--
 <img src="./assets/section-activity.svg" width="100%"/>
 
 <div align="center">
 <br/>
-
 <a href="https://github.com/NinadAmane">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=NinadAmane&bg_color=0c0809&color=908880&line=fcee0a&point=03d8f3&area_color=fcee0a&area=true&hide_border=true&custom_title=NEURAL+ACTIVITY+LOG"/>
 </a>
 
 <br/><br/>
+-->
 
 <a href="https://github.com/NinadAmane">
 <img src="./profile-3d-contrib/profile-cyberpunk-contrib.svg" width="100%" alt="3D Isometric Contributions"/>
 </a>
-
-<br/><br/>
 </div>
-
 <img src="./assets/line-divider.svg" width="100%"/>
 
 <!-- ═══════════════════ CONNECT ═══════════════════ -->
